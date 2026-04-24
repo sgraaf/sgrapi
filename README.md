@@ -38,6 +38,12 @@ Custom extensions for Pi Coding Agent are in [`extensions`](extensions):
 * [`uv.ts`](extensions/uv.ts) - Helpers for uv-based Python workflows.
 * [`whimsical.ts`](extensions/whimsical.ts) - Replaces the default thinking message with random whimsical phrases.
 
+## Pi Coding Agent Themes
+
+Custom themes are in [`themes`](themes):
+
+* [`dracula.json`](themes/dracula.json) - [Dracula](https://draculatheme.com/) theme.
+
 ## Intercepted Commands
 
 Command wrappers live in [`intercepted-commands`](intercepted-commands):
