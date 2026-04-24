@@ -1,15 +1,13 @@
-# Agent Stuff
+# sgrapi
 
 This repository contains skills and extensions that I use across projects. Note that I often fine-tune these for specific repos, so some items may need small adjustments before reuse.
 
-It is released on npm as `mitsupi` for use with the [Pi](https://buildwithpi.ai/) package loader.
+It is released on npm as `sgrapi` for use with the [Pi](https://buildwithpi.ai/) package loader.
 
 ## Skills
 
 All skills live in the [`skills`](skills) folder:
 
-* [`/anachb`](skills/anachb) - Query Austrian public transport (VOR AnachB) for departures, routes, and disruptions.
-* [`/apple-mail`](skills/apple-mail) - Search/read Apple Mail local storage and extract attachments.
 * [`/commit`](skills/commit) - Create git commits using concise Conventional Commits-style subjects.
 * [`/frontend-design`](skills/frontend-design) - Design and implement distinctive frontend interfaces.
 * [`/ghidra`](skills/ghidra) - Reverse engineer binaries using Ghidra's headless analyzer.
@@ -18,8 +16,6 @@ All skills live in the [`skills`](skills) folder:
 * [`/librarian`](skills/librarian) - Cache and refresh remote git repositories in `~/.cache/checkouts`.
 * [`/mermaid`](skills/mermaid) - Create and validate Mermaid diagrams with Mermaid CLI tooling.
 * [`/native-web-search`](skills/native-web-search) - Trigger native web search with concise summaries and source URLs.
-* [`/oebb-scotty`](skills/oebb-scotty) - Plan Austrian rail journeys via ÖBB Scotty API.
-* [`/openscad`](skills/openscad) - Create/render OpenSCAD models and export STL files.
 * [`/pi-share`](skills/pi-share) - Load and parse session transcripts from shittycodingagent.ai/buildwithpi/pi.dev URLs.
 * [`/sentry`](skills/sentry) - Fetch and analyze Sentry issues, events, transactions, and logs.
 * [`/summarize`](skills/summarize) - Convert files/URLs to Markdown via `uvx markitdown` and summarize.
@@ -38,7 +34,6 @@ Custom extensions for Pi Coding Agent are in [`extensions`](extensions):
 * [`control.ts`](extensions/control.ts) - Session control helpers (list controllable sessions, etc.).
 * [`files.ts`](extensions/files.ts) - Unified file browser with git status + session references and reveal/open/edit/diff actions.
 * [`split-fork.ts`](extensions/split-fork.ts) - `/split-fork` command to branch the current session into a new pi process in a right-hand Ghostty split.
-* [`go-to-bed.ts`](extensions/go-to-bed.ts) - Late-night safety guard with explicit confirmation after midnight.
 * [`loop.ts`](extensions/loop.ts) - Prompt loop for rapid iterative coding with optional auto-continue.
 * [`multi-edit.ts`](extensions/multi-edit.ts) - Replaces the built-in `edit` tool with batch `multi` edits and Codex-style `patch` support, including preflight validation.
 * [`notify.ts`](extensions/notify.ts) - Native desktop notifications when the agent finishes.
@@ -54,13 +49,6 @@ Custom extensions for Pi Coding Agent are in [`extensions`](extensions):
 Custom themes are in [`themes`](themes):
 
 * [`nightowl.json`](themes/nightowl.json) - Night Owl-inspired theme.
-
-## Distributions
-
-This repo also contains distribution packages in [`distributions`](distributions):
-
-* [`mitsupi-common`](distributions/mitsupi-common) - Minimal/default set (all resources except `anachb`, `apple-mail`, `oebb-scotty`, `openscad`, and `go-to-bed`).
-* [`mitsupi-loaded`](distributions/mitsupi-loaded) - Add-on package that provides `anachb`, `apple-mail`, `oebb-scotty`, `openscad`, and `go-to-bed`.
 
 ## Plumbing Commands
 

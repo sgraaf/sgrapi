@@ -255,8 +255,8 @@ function formatUsd(cost: number): string {
  * - Replace home dir with ~
  * - If still too long, keep first segment + last N segments with … in between
  * Examples:
- *   /Users/mitsuhiko/Development/agent-stuff  →  ~/Development/agent-stuff
- *   /Users/mitsuhiko/Development/minijinja/minijinja-go  →  ~/…/minijinja/minijinja-go
+ *   /Users/sgraaf/Git/sgrapi  →  ~/Git/sgrapi
+ *   /Users/sgraaf/Git/some-project/sub-dir  →  ~/…/some-project/sub-dir
  */
 function abbreviatePath(p: string, maxWidth = 40): string {
 	const home = os.homedir();

@@ -1,10 +1,10 @@
 {
-  "name": "mitsupi",
+  "name": "sgrapi",
   "version": "1.6.0",
-  "description": "Armin's pi coding agent commands, skills, extensions, and themes",
+  "description": "sgraaf's pi coding agent commands, skills, extensions, and themes",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mitsuhiko/agent-stuff.git"
+    "url": "https://github.com/sgraaf/sgrapi.git"
   },
   "readme": "README.md",
   "type": "module",
