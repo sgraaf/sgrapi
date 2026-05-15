@@ -1,7 +1,7 @@
 {
   "name": "sgrapi",
   "version": "1.6.0",
-  "description": "sgraaf's pi coding agent commands, extensions, intercepted commands, prompts, skills, and themes",
+  "description": "sgraaf's pi coding agent extensions, skills, prompt templates, and themes",
   "repository": {
     "type": "git",
     "url": "https://github.com/sgraaf/sgrapi.git"
@@ -12,21 +12,14 @@
     "pi-package",
     "pi-extension",
     "pi-skill",
+    "pi-prompt",
     "pi-theme"
   ],
   "pi": {
-    "extensions": [
-      "./extensions"
-    ],
-    "skills": [
-      "./skills"
-    ],
-    "themes": [
-      "./themes"
-    ],
-    "prompts": [
-      "./commands"
-    ]
+    "extensions": ["./extensions"],
+    "skills": ["./skills"],
+    "prompts": ["./prompts"],
+    "themes": ["./themes"]
   },
   "dependencies": {
     "diff": "^8.0.2"
