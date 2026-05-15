@@ -1,7 +1,7 @@
 {
   "name": "sgrapi",
   "version": "1.6.0",
-  "description": "sgraaf's pi coding agent commands, skills, extensions, and themes",
+  "description": "sgraaf's pi coding agent commands, extensions, intercepted commands, prompts, skills, and themes",
   "repository": {
     "type": "git",
     "url": "https://github.com/sgraaf/sgrapi.git"
@@ -32,8 +32,9 @@
     "diff": "^8.0.2"
   },
   "peerDependencies": {
-    "@mariozechner/pi-coding-agent": "*",
-    "@mariozechner/pi-ai": "*",
-    "@mariozechner/pi-tui": "*"
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
   }
 }
