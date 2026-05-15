@@ -2,6 +2,8 @@
 
 All notable changes to sgrapi are documented here.
 
+## Unreleased
+
 ## 26.5.15
 
 * Improved `web-browser` skill with mobile device emulation support and better Chrome profile isolation.
