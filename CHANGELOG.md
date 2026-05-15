@@ -2,7 +2,15 @@
 
 All notable changes to sgrapi are documented here.
 
-## Unreleased
+## 26.5.15
+
+* Improved `web-browser` skill with mobile device emulation support and better Chrome profile isolation.
+* Fixed prompt-editor extension compatibility with the updated editor API.
+* Renamed repository from `mitsupi` to `sgrapi` and cleaned up obsolete skills, extensions, themes, and commands.
+* Added a "Dracula" theme.
+* Migrated package and schema URLs from `mariozechner`/`badlogic` to `earendil-works`.
+* Refactored the `uv` extension into a directory layout and consolidated `intercepted-commands` shims within it.
+* Added prompt templates for `review-folder` and `review-uncommitted` workflows.
 
 ## 1.6.0
 

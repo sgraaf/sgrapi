@@ -1,7 +1,7 @@
 {
   "name": "sgrapi",
-  "version": "1.6.0",
-  "description": "sgraaf's pi coding agent extensions, skills, prompt templates, and themes",
+  "version": "26.5.15",
+  "description": "Pi package with custom extensions, skills, prompt templates and themes used by me, sgraaf.",
   "repository": {
     "type": "git",
     "url": "https://github.com/sgraaf/sgrapi.git"
